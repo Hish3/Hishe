@@ -334,8 +334,8 @@
     padding-left: 10px;
   }
 
-  .text-blk.subHeadingText {
-    font-size: 22px;
+  .text-blk.headingText {
+    font-size: 38px;
   }
 
   .responsive-container-block.Container.bottomContainer {
@@ -355,9 +355,16 @@
   }
 }
 
+@media (max-width: 810px) {
+  .text-blk.headingText {
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 768px) {
   .mainImg {
     width: 90%;
+    padding: 20px;
   }
 
   .allText {
@@ -383,11 +390,11 @@
 
   .text-blk.headingText {
     text-align: center;
+    font-size: 48px;
   }
 
   .text-blk.subHeadingText {
     text-align: center;
-    font-size: 25px;
   }
 
   .text-blk.description {
@@ -430,7 +437,8 @@
   }
 
   .mainImg {
-    width: 100%;
+    width: 80%;
+
   }
 
   .responsive-container-block.bigContainer {
@@ -440,8 +448,8 @@
     padding-left: 25px;
   }
 
-  .text-blk.subHeadingText {
-    font-size: 25px;
+  .text-blk.headingText {
+    font-size: 40px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -454,6 +462,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+    margin: 50px;
   }
 
   .allText {
