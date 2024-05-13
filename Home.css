@@ -119,7 +119,8 @@
   }
 
   .navlink {
-    font-size: 9.7px;
+    font-size: 10px;
+      column-gap: 20px;
   }
 
 }
