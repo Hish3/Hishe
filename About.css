@@ -74,19 +74,20 @@
 }
 
 .navigation a:hover{
-  color: rgb(179, 204, 250);
+  color: rgb(29, 219, 225);
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav-item a {
     color: rgb(255, 255, 255);
-    width: auto;
+    width: 100px;
   }
   
 .nav-item.active a {
     color: #07589b;
-    width: auto;
+    width: 100%;
     background-color: #fff;
+    width: 100px;
   }
   
 li {
@@ -118,6 +119,7 @@ li {
     align-items: center;
     padding: 25px 0;
     row-gap: 18px;
+    margin-bottom: 50px;
   }
 
   .navlink {
@@ -128,6 +130,9 @@ li {
         width: 85%;
     }
 
+  .nav-item a{
+   width: auto;
+  }
 }
 
 @media (max-width: 375px) {
@@ -147,8 +152,10 @@ li {
         width: 95%;
     }
     
+    .nav-item a{
+      width: auto;
+    }
 }
-
 /*content*/
 .responsive-container-block {
   min-height: 75px;
