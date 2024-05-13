@@ -74,8 +74,24 @@
 }
 
 .navigation a:hover{
-  color: rgb(218, 155, 40);
+  color: rgb(179, 204, 250);
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+    width: auto;
+  }
+  
+.nav-item.active a {
+    color: #07589b;
+    width: auto;
+    background-color: #fff;
+  }
+  
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
 .navlink {
@@ -109,7 +125,7 @@
   }
 
     .navigation {
-        width: 80%;
+        width: 85%;
     }
 
 }
@@ -123,7 +139,7 @@
   }
 
   .navlink {
-    font-size: 12px;
+    font-size: 11,5px;
       column-gap: 20px;
   }
 
