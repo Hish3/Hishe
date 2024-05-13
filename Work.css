@@ -107,8 +107,12 @@
   }
 
   .navlink {
-    font-size: 10px;
+    font-size: 15px;
   }
+
+    .navigation {
+        width: 80%;
+    }
 
 }
 
@@ -121,9 +125,14 @@
   }
 
   .navlink {
-    font-size: 9px;
+    font-size: 12px;
+      column-gap: 20px;
   }
 
+    .navigation {
+        width: 95%;
+    }
+    
 }
 
 /*content*/
