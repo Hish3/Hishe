@@ -123,6 +123,10 @@
       column-gap: 20px;
   }
 
+    .navigation {
+        width: 100%
+    }
+    
 }
 
 /*WIP*/
