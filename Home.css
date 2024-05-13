@@ -119,12 +119,12 @@
   }
 
   .navlink {
-    font-size: 10px;
+    font-size: 12px;
       column-gap: 20px;
   }
 
     .navigation {
-        width: 100%;
+        width: 95%;
     }
     
 }
